@@ -1,0 +1,22 @@
+package com.comparable;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ComparableTest {
+	public static void main(String args[])
+	{
+		ArrayList<Student> al=new ArrayList<Student>();
+		al.add(new Student(1,"amit",20));
+		al.add(new Student(2,"sumit",18));
+		al.add(new Student(3,"deepak",22));
+		
+		Collections.sort(al);
+		for(Student s:al)
+
+		{  
+			System.out.println(s.rollno+" "+s.name+" "+s.age);
+		}
+	}
+
+}

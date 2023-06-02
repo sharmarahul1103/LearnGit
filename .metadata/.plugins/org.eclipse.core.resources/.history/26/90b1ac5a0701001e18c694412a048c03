@@ -1,0 +1,11 @@
+package com.comparable;
+
+import java.util.ArrayList;
+
+public class ComparableTest {
+	public static void main(String args[])
+	{
+		ArrayList<Student> al=new ArrayList<Student>();
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.product;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StreamProduct {
+	
+	List<Product> item=new ArrayList<Product>();
+	     
+
+}

@@ -1,0 +1,14 @@
+package com.comparator;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String args[])
+	{
+		ArrayList<Student> al=new ArrayList<>();
+		al.add(new Student(101,"rohit" ,21));
+		al.add(new Student(102,"atul" ,18));
+		al.add(new Student(103,"sumit" ,22));
+	}
+
+}

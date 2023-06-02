@@ -1,0 +1,14 @@
+package stream_comparator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmpSorting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<Employee> emps=new ArrayList<Employee>();
+	}
+
+}

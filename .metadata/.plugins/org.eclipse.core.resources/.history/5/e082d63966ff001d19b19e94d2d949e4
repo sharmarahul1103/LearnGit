@@ -1,0 +1,9 @@
+package com.Stream;
+
+public class Practice {
+	public static void main(String args[])
+	{
+		
+	}
+
+}

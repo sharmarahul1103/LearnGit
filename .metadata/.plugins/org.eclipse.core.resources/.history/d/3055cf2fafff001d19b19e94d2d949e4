@@ -1,0 +1,14 @@
+package com.product;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StreamProduct {
+	
+	
+	Product p=new Product(1,"mouse",1000);
+	pro
+     
+	     
+
+}

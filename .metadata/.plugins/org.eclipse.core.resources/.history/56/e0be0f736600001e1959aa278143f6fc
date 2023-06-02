@@ -1,0 +1,12 @@
+package com.optional;
+
+import java.util.function.Predicate;
+
+public class Predicatetest {
+	
+	public static void main(String s[])
+	{
+		Predicate<Integer> lessthan=(i)->(i<10);
+	}
+
+}

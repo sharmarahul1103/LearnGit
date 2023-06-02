@@ -1,0 +1,13 @@
+package com.product;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StreamProduct {
+	
+	ArrayList<Product> products=new ArrayList<Product>();
+	Product p=new Product(1,"mouse",1000);
+     
+	     
+
+}

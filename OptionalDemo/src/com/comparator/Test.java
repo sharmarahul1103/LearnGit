@@ -1,0 +1,27 @@
+package com.comparator;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Test {
+	public static void main(String args[])
+	{
+		ArrayList<Student> al=new ArrayList<>();
+		al.add(new Student(101,"rohit" ,24));
+		al.add(new Student(102,"atul" ,18));
+		al.add(new Student(103,"sumit" ,22));
+		System.out.println("sorting by name");
+		
+		Collections.sort(al, new NameComparator());
+		for(Student st:al)
+		{ System.out.println(st); }
+		
+		System.out.println("sorting by age");
+		Collections.sort(al, new AgeComparator());
+		for(Student st1:al)
+		{
+			System.out.println(st1);
+		}
+	}
+
+}

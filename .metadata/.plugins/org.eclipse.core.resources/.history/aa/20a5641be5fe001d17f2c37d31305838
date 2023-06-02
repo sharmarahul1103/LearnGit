@@ -1,0 +1,11 @@
+package com.rahul;
+
+import java.util.ArrayList;
+
+public class FilterDemo {
+	public static void main(String args[])
+	{
+		List<Product> productList=new ArrayList<>();
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.comparator;
+
+public class Student {
+	int rollno;
+	String name;
+	int age;
+
+}

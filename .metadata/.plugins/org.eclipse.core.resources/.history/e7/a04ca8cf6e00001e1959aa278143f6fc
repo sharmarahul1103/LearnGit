@@ -1,0 +1,13 @@
+package com.optional;
+
+import java.util.function.Consumer;
+
+public class ConsumerDemo {
+	public static void main(String args[]) {
+		Consumer<Integer> show = a -> {
+			System.out.println(a);
+		};
+		show.accept(10);
+	}
+
+}

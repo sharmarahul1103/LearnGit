@@ -1,0 +1,12 @@
+package stream_comparator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListSorting {
+
+	public static void main(String args[])
+	{
+		List<String> names=new ArrayList<String>();
+	}
+}
