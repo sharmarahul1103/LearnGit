@@ -1,9 +1,0 @@
-package com.product;
-
-import java.util.ArrayList;
-
-public class StreamProduct {
-	
-	List<Product> items=new ArrayList<Product>();
-
-}

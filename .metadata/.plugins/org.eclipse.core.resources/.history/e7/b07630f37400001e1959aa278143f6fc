@@ -1,9 +1,0 @@
-package com.optional;
-
-public class FunctionTest {
-	public static void main(Strin args[])
-	{
-		Function<Integer,Double> half=a-> a/2.0 ;
-	}
-
-}
